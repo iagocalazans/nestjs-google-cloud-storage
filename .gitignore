@@ -50,10 +50,7 @@ web_modules/
 
 # Optional npm cache directory
 .npm
-<<<<<<< HEAD
-=======
 .npmrc
->>>>>>> 2765e12 (feat: :tada: begin the module)
 
 # Optional eslint cache
 .eslintcache
