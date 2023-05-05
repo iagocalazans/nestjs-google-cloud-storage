@@ -22,14 +22,12 @@
   },
   "peerDependencies": {
     "@nestjs/common": ">=9.0.0",
-    "@nestjs/core": ">=9.0.0",
-    "@google-cloud/storage": "^6.10.0",
-    "@nestjs/platform-express": "^9.0.0",
-    "reflect-metadata": "^0.1.13"
+    "@nestjs/core": ">=9.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@google-cloud/storage": "^6.10.0"
+  },
   "devDependencies": {
-    "@google-cloud/storage": "^6.10.0",
     "@nestjs/cli": "^9.0.0",
     "@nestjs/common": ">=9.0.0",
     "@nestjs/schematics": "^9.0.0",
