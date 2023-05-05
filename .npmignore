@@ -1,0 +1,5 @@
+.vscode/
+.eslintrc.js
+.gitignore
+.env
+src/
