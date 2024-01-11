@@ -27,14 +27,14 @@ export class StorageService {
   }
 
   createFile(filename: string, options?: FileOptions) {
-    return this.bucketInstance.file(filename, options);
+    return this.bucket.file(filename, options);
   }
 
   createFileStream(
     filename: string,
     streamOptions?: CreateWriteStreamOptions,
   ) {
-    return this.bucketInstance
+    return this.bucket
       .file(filename)
       .createWriteStream(streamOptions);
   }
@@ -44,6 +44,6 @@ export class StorageService {
   }
 
   get bucket() {
-    return this.bucket;
+    return this.bucketInstance;
   }
 }
